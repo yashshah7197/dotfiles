@@ -406,7 +406,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>269 223 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>613 243 570 452 0 0 1280 777 </string>
+	<string>590 216 570 452 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>152 325 570 452 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -1178,7 +1178,9 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/yashshah/Documents/dotfiles</string>
+	<string>~/Documents/dotfiles</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1188,7 +1190,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-03T15:17:06Z</date>
+	<date>2018-01-05T11:03:19Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
