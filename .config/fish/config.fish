@@ -6,6 +6,7 @@
 set fish_greeting
 
 # Add different PATHs required for various commands
+set -gx PATH "/usr/local/sbin" $PATH 
 set -gx PATH /usr/local/miniconda3/bin $PATH
 set -gx PATH "/usr/local/opt/openssl/bin" $PATH
 set -gx PATH ~/Library/Android/sdk/platform-tools $PATH
