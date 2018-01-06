@@ -333,7 +333,6 @@ for app in "Activity Monitor" \
 	"Photos" \
 	"Safari" \
 	"SystemUIServer" \
-	"Terminal" \
 	"TextEdit" \
 	"Transmission"; do
 	killall "${app}" &> /dev/null
