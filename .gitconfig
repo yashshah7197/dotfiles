@@ -3,3 +3,5 @@
 # Please adapt and uncomment the following lines:
 	name = yashshah7197
 	email = yash.shah7197@live.com
+[core]
+	autocrlf = input
