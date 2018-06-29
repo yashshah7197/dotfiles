@@ -13,3 +13,5 @@ set -gx PATH ~/Library/Android/sdk/platform-tools $PATH
 
 # Source conda.fish for 'conda activate' to properly work with fish shell
 source (conda info --root)/etc/fish/conf.d/conda.fish
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
