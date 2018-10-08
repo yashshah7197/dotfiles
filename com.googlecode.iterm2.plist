@@ -394,9 +394,9 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>257 178 937 512 0 0 1440 877 </string>
+	<string>269 201 928 394 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>857 225 570 402 0 0 1440 877 </string>
+	<string>155 93 570 402 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -621,13 +621,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.15977835655212402</real>
+				<real>0.10000000000000001</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.12215268611907959</real>
+				<real>0.10000000000000001</real>
 				<key>Red Component</key>
-				<real>0.1176580935716629</real>
+				<real>0.10000000000000001</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -1126,14 +1126,12 @@
 			<string>/Users/yashshah</string>
 		</dict>
 	</array>
-	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
-	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>9ED2A3FE-2BD9-4163-93D0-728B49311C89</string>
+	<string>6AA33169-20AC-4A56-ABF9-8091165FB814</string>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>549986951.87426102</real>
+	<real>560663595.72661304</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1171,22 +1169,22 @@
 	<string>~/Documents/dotfiles</string>
 	<key>PromptOnQuit</key>
 	<false/>
+	<key>SUAutomaticallyUpdate</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
-	<true/>
+	<false/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=98</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=36</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-06T16:03:54Z</date>
-	<key>SUSendProfileInfo</key>
-	<false/>
+	<date>2018-10-08T03:36:29Z</date>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.1.6</string>
+	<string>3.2.3</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
