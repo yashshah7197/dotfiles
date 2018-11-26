@@ -1,7 +1,85 @@
-# This is Git's per-user configuration file.
+# Colors for diff-highlight
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+# Colors for diffs
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[core]
+	# Configure Git to properly handle line endings on macOS
+	# https://help.github.com/articles/dealing-with-line-endings/
+	autocrlf = input
+
+	# Use VS Code as the default Git editor
+	editor = code --new-window --wait
+	
+	# Specify a global .gitignore file
+	excludesfile = ~/.gitignore
+
+	# Show awesome and beautiful diffs instead of the bland, default ones
+	# https://github.com/so-fancy/diff-so-fancy
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
+[diff]
+	# Use VS Code as the default Git diff tool
+	tool = vscode
+
+[difftool "vscode"]
+	# Command to launch VS Code as a Git diff tool
+	cmd = code --new-window --wait --diff $LOCAL $REMOTE
+
+[difftool]
+	# Disable the prompt while launching the Git diff tool
+	prompt = false
+
+[fetch]
+	# Remove or prune any remote-tracking references that no longer exist on the remote before fetching
+	# https://git-scm.com/docs/git-fetch#git-fetch--p
+	prune = true
+
+[merge]
+	# Perform only fast-forward merges to avoid creating any merge commits
+	ff = only
+
+[push]
+	# Push all tags along with the commits so that we don't have to push them manually
+	# https://git-scm.com/docs/git-config#git-config-pushfollowTags
+	followTags = true
+
+[status]
+	# Show all files in a newly added folder instead of just showing the folder name
+	showUntrackedFiles = all
+
+[transfer]
+	# Verify repository integrity and combat repository corruption during transfer
+	fsckobjects = true
+
+# Use HTTPS instead of SSH for GitHub
+[url "https://github.com/"]
+	insteadOf = git@github.com
+
+# Use HTTPS instead of SSH for Git in general
+[url "https://"]
+	insteadOf = git://
+
+# URL shorthand for GitHub repositories
+[url "https://github.com/"]
+	insteadOf = gh:
+
+# URL shorthand for GitHub Gists
+[url "https://gist.github.com/"]
+	insteadOf = gist:
+
+# User information
 [user]
-# Please adapt and uncomment the following lines:
 	name = yashshah7197
 	email = yash.shah7197@live.com
-[core]
-	autocrlf = input
