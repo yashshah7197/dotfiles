@@ -1,7 +1,3 @@
-# Source aliases for git and common cli commands
-. ~/.config/fish/git_aliases.fish
-. ~/.config/fish/cli_aliases.fish
-
 # Remove the fish shell welcome greeting
 set fish_greeting
 
