@@ -33,6 +33,7 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.enableBell": true,
     "update.showReleaseNotes": false,
+    "vsicons.dontShowNewVersionMessage": true,
     "window.restoreWindows": "none",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
