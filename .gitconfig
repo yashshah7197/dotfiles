@@ -50,10 +50,6 @@
 	# https://git-scm.com/docs/git-fetch#git-fetch--p
 	prune = true
 
-[merge]
-	# Perform only fast-forward merges to avoid creating any merge commits
-	ff = only
-
 [push]
 	# Push all tags along with the commits so that we don't have to push them manually
 	# https://git-scm.com/docs/git-config#git-config-pushfollowTags
