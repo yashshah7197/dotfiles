@@ -6,7 +6,7 @@ set -x GPG_TTY (tty)
 
 # Add different PATHs required for various commands
 set PATH /usr/local/sbin $PATH
-set PATH /usr/local/miniconda3/bin $PATH
+set PATH /opt/miniconda3/bin $PATH
 
 # Source conda.fish for 'conda activate' to properly work with fish shell
 source (conda info --root)/etc/fish/conf.d/conda.fish
