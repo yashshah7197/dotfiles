@@ -24,7 +24,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "search.location": "panel",
     "search.showLineNumbers": true,
     "search.smartCase": true,
     "telemetry.enableCrashReporter": false,
