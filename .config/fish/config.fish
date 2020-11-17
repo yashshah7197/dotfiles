@@ -8,4 +8,4 @@ set -x GPG_TTY (tty)
 set PATH /usr/local/sbin $PATH
 
 # iTerm shell integration
-test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+source $HOME/.iterm2_shell_integration.(basename $SHELL)
