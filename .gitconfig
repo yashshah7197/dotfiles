@@ -20,17 +20,15 @@
 
 [core]
 	# Configure Git to properly handle line endings on macOS
-	# https://help.github.com/articles/dealing-with-line-endings/
 	autocrlf = input
 
 	# Use VS Code as the default Git editor
 	editor = code --new-window --wait
-	
+
 	# Specify a global .gitignore file
 	excludesfile = ~/.gitignore
 
 	# Show awesome and beautiful diffs instead of the bland, default ones
-	# https://github.com/so-fancy/diff-so-fancy
 	pager = diff-so-fancy | less --tabs=4 -RFX
 
 [diff]
@@ -46,13 +44,16 @@
 	prompt = false
 
 [fetch]
-	# Remove or prune any remote-tracking references that no longer exist on the remote before fetching
-	# https://git-scm.com/docs/git-fetch#git-fetch--p
+	# Remove or prune any remote-tracking references that no longer exist on the remote before
+	# fetching
 	prune = true
+
+[pull]
+	# Fast forward pull if possible, else abort
+	ff = only
 
 [push]
 	# Push all tags along with the commits so that we don't have to push them manually
-	# https://git-scm.com/docs/git-config#git-config-pushfollowTags
 	followTags = true
 
 [status]
