@@ -16,4 +16,4 @@ eval /usr/local/Caskroom/miniconda/base/bin/conda "shell.fish" "hook" $argv | so
 # <<< conda initialize <<<
 
 # iTerm shell integration
-source $HOME/.iterm2_shell_integration.(basename $SHELL)
+test -e $HOME/.iterm2_shell_integration.fish ; and source $HOME/.iterm2_shell_integration.fish

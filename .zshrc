@@ -13,4 +13,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source $HOME/.iterm2_shell_integration.zsh
+test -e ${HOME}/.iterm2_shell_integration.zsh && source $HOME/.iterm2_shell_integration.zsh
